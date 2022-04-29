@@ -1,0 +1,23 @@
+{
+  "name": "mf7cli.ml",
+  "version": "1.0.0",
+  "description": "",
+  "main": "api/server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Mf-3d/mf7cli.ml.git"
+  },
+  "keywords": [],
+  "author": "mf7cli <mf7cli120@icloud.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Mf-3d/mf7cli.ml/issues"
+  },
+  "homepage": "https://github.com/Mf-3d/mf7cli.ml#readme",
+  "dependencies": {
+    "express": "^4.18.0"
+  }
+}
