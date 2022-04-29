@@ -57,6 +57,7 @@ header {
     position: fixed;
     width: 100%;
     top: 0;
+    z-index: 10;
 }
 
 header > #header_title {
@@ -102,7 +103,7 @@ header > #header_links > a {
     position: relative;
     overflow: hidden;
     background:#3f3f3f29;
-    margin-bottom: 1em;
+    margin: 0.25em;
     display: inline-block;
     _display: inline;
 }
@@ -144,6 +145,14 @@ header > #header_links > a {
     border-bottom: 1px solid #d3d3d3;
 }
 
+#newsColumn {
+    padding: 1em;
+    padding-top: 0em;
+    border-bottom-right-radius: 10px;
+    border-right: 1px solid #d3d3d3;
+    border-bottom: 1px solid #d3d3d3;
+}
+
 .flowbtn10{
     display:inline-block;	
     font-size:35px;
@@ -154,4 +163,20 @@ header > #header_links > a {
 
 .flowbtn10 .fa-twitter:hover{
     color:#55acee;
+}
+
+iframe {
+    border: none;
+    border-radius: 5px;
+}
+
+.news {
+    padding: 1em;
+    width: 640px;
+    position: relative;
+    overflow: hidden;
+    background:#3f3f3f29;
+    margin: 0.25em;
+    display: inline-block;
+    _display: inline;
 }
